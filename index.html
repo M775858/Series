@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Jiki!</title>
+
+    <style type="text/css">
+      
+      .class{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+       
+            <h1>Movie List  </h1>
+            <form class="form-group " action="/addMovie" method="POST"> <!-- NB  METHOD AND ACTION-->
+                <label class="col-sm-2 control-label">Movie Name</label>
+                <div class="col-sm-2">
+                  <input class="form-control" name="series" type="text" placeholder="fatherhood" ><!-- NB -->
+                </div>
+                <label class="col-sm-2 control-label">Year</label>
+                <div class="col-sm-2">
+                  <input class="form-control" name="year" type="text" placeholder="2020" ><!-- NB -->
+                </div>               
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Add Movie</button>
+                </div>
+            </form>
+    
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
